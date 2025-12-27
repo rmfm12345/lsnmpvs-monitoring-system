@@ -1,0 +1,40 @@
+##[pylyzer] failed /home/ruben/uni/gsr/GSR_FinalProject/Agent/lsnmp_agent.py 1761086195 2276
+.random: Never
+
+.json: Never
+
+.___v_desugar_1: Never
+.decode: Never
+.___v_desugar_2: Never
+.messages: Never
+.___v_desugar_3: Never
+.VirtualSensor: Never
+.___v_desugar_4: Never
+.datetime: Never
+.___v_desugar_5: Never
+.encode_complete_pdu: Never
+.decode_complete_pdu: Never
+.lmib = pyimport "lmib"
+
+.LSNMPAgent: ClassType
+.LSNMPAgent.sensors: Never
+.LSNMPAgent.__call__: () -> lsnmp_agent.LSNMPAgent
+.LSNMPAgent.get_value: (self: lsnmp_agent.LSNMPAgent, iid: Obj) -> {None}
+.LSNMPAgent.handle_request: (self: lsnmp_agent.LSNMPAgent, iid_list: global::Iterable(Never)) -> lsnmp_agent.LSNMPMessage
+
+.LSNMPMessage: ClassType
+.LSNMPMessage.iid_list: Never
+.LSNMPMessage.timestamp: Never
+.LSNMPMessage.msg_id: Never
+.LSNMPMessage.t_list: Never
+.LSNMPMessage.v_list: Never
+.LSNMPMessage.tag: Never
+.LSNMPMessage.e_list: Never
+.LSNMPMessage.type: Never
+.LSNMPMessage.__call__: (msg_type: Obj, iid_list: global::Iterable(Never), value_list: Obj) -> lsnmp_agent.LSNMPMessage
+.LSNMPMessage._get_current_timestamp: (self: lsnmp_agent.LSNMPMessage) -> Str
+.LSNMPMessage.encode_protocol: (self: lsnmp_agent.LSNMPMessage) -> Never
+.LSNMPMessage.decode_protocol: |Type_312 <: lsnmp_agent.LSNMPMessage|(cls: () -> Type_312, data: Obj) -> Type_312
+
+: |Type_311 <: lsnmp_agent.LSNMPMessage|(cls: () -> Type_311, data: Obj) -> Type_311
+

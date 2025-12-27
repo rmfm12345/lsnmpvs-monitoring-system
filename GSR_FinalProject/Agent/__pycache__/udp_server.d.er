@@ -1,0 +1,24 @@
+##[pylyzer] failed /home/ruben/uni/gsr/GSR_FinalProject/Agent/udp_server.py 1761086153 1483
+.socket: Never
+
+.json: Never
+
+.___v_desugar_1: Never
+.request_uri: Never
+.___v_desugar_2: Never
+.LSNMPAgent: Never
+.UDPServer: ClassType
+.UDPServer.port: Never
+.UDPServer.agent: Never
+.UDPServer.host: Never
+.UDPServer.socket: Never
+.UDPServer.__call__: (host: Obj := Obj, port: Obj := Obj) -> udp_server.UDPServer
+.UDPServer.start: (self: udp_server.UDPServer) -> NoneType
+.UDPServer.handle_request: (self: udp_server.UDPServer, data: global::Bytes, addr: Obj) -> NoneType
+
+
+udp_server = pyimport "udp_server"
+.server: .UDPServer
+
+
+

@@ -1,0 +1,42 @@
+##[pylyzer] failed /home/ruben/uni/gsr/GSR_FinalProject/Agent/protocol.py 1760918313 32805
+.struct: Never
+
+.___v_desugar_1: Never
+.month: Never
+.___v_desugar_2: Never
+.datetime: Never
+.___v_desugar_3: Never
+.index: Never
+.___v_desugar_4: Never
+.monotonic_ns: Never
+.___v_desugar_5: Never
+.names: Never
+.TYPE_MAP: Never
+.ERROR_CODES: Never
+.encode_timestamp_type0: (timestamp_str: Str) -> Never
+.decode_timestamp_type0: (data: Obj) -> Str
+.encode_timestamp_type1: (timestamp_str: Str) -> Never
+.decode_timestamp_type1: (data: Obj) -> Str
+.encode_tag: () -> Never
+.decode_tag: (tag_bytes: Obj) -> {"LSNMPv2"}
+.encode_type: (Type: Obj) -> Never
+.decode_type: (type_bytes: Obj) -> Never
+.encode_MSGID: (msgId: Obj) -> Never
+.decode_MSGID: (msgId_bytes: Obj) -> Never
+.encode_single_iid: (iid_str: Str) -> Never
+.encode_iid_list: (iid_list: Never, strict: Bool := Bool) -> Never
+.decode_single_iid: |Type_1304 :> global::Slice, Type_365 <: Structural({.__len__ = (self: Never) -> Nat; .__getitem__ = (self: Obj, Type_1288) -> {64} and (self: Obj, Type_1304) -> Type_1305}), Type_1288 :> {0}, Type_1305: Type|(data: Type_365) -> Never
+.decode_iid_list: (data: Never) -> global::Tuple([global::List!(Never, 1), Never])
+.encode_value: (value_data: Obj, value_type: {"byte"} := {"byte"}) -> Never
+.decode_value: |Type_2215 :> global::Slice, Type_2216: Type, Type_2201 :> {0}, Type_373 <: Structural({.__len__ = (self: Never) -> Nat; .__getitem__ = (self: Obj, Type_2201) -> {0} and (self: Obj, Type_2215) -> Type_2216})|(data: Type_373) -> Never
+.encode_v_list: (values: Never, strict: Bool := Bool) -> Never
+.decode_v_list: (data: Never) -> global::Tuple([global::List!(Never, 1), Never])
+.encode_t_list: (timestamps: Never) -> Never
+.decode_t_list: (data: Never) -> global::Tuple([global::List!(Never, 1), Never])
+.decode_timestamp: |Type_346: Type, V <: Structural({.__len__ = (self: Never) -> Nat; .__getitem__ = (self: Obj, Type_3314) -> {16} and (self: Obj, Type_3329) -> Type_346}), Type_3329 :> global::Slice, Type_3314 :> {0}|(data: V) -> global::Indexable(Obj, Never)
+.encode_e_list: |Type_387 <: Structural({.__len__ = (self: Never) -> Nat})|(error_codes: Type_387) -> Never
+.decode_e_list: (data: Never) -> Never
+.error_code_to_string: (error_code: Obj) -> Never
+.encode_complete_pdu: (msg_type: Obj, timestamp: Str, msg_id: Obj, iid_list: Never, v_list: Never, t_list: Never, e_list: Structural({.__len__ = (self: Never) -> Nat}) := {None} and Structural({.__len__ = (self: Never) -> Nat})) -> Never
+.decode_complete_pdu: |Type_402 <: Structural({.__len__ = (self: Never) -> Nat})|(data: Type_402) -> global::Dict!({{"timestamp"}: Str, {"msg_id"}: Never, {"v_list"}: global::List!(Never, 1), {"t_list"}: global::List!(Never, 1), {"remaining_data"}: Never, {"iid_list"}: global::List!(Never, 1), {"e_list"}: Never, {"type"}: Never, {"tag"}: {"LSNMPv2"}})
+.get_current_timestamp: () -> Str

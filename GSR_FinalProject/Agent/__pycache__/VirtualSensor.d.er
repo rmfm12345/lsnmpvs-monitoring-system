@@ -1,0 +1,9 @@
+##[pylyzer] failed /home/ruben/uni/gsr/GSR_FinalProject/Agent/VirtualSensor.py 1759597978 209
+.random: Never
+
+.VirtualSensor: ClassType
+.VirtualSensor.min: Never
+.VirtualSensor.max: Never
+.VirtualSensor.__call__: (min_val: Obj := Obj, max_val: Obj := Obj) -> VirtualSensor.VirtualSensor
+.VirtualSensor.read: (self: VirtualSensor.VirtualSensor) -> Never
+
