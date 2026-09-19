@@ -1,10 +1,6 @@
 # L-SNMPvS Monitoring System
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Protocol](https://img.shields.io/badge/Protocol-L--SNMPvS-orange)
-![Security](https://img.shields.io/badge/Security-AES--ECB-green)
-![License](https://img.shields.io/badge/License-Academic-lightgrey)
-![University](https://img.shields.io/badge/University-of%20Minho-red)
 
 > **A lightweight, secure network monitoring system based on the L-SNMPvS protocol**, developed for the *Gestão e Segurança de Redes* course at the **University of Minho**.
 
