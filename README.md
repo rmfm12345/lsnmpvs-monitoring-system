@@ -160,19 +160,6 @@ lsnmpvs-monitoring-system/
 
 ---
 
-## 🧪 Testing
-
-```bash
-python -m unittest discover tests
-```
-
-Or with `pytest`:
-
-```bash
-pytest tests/
-```
-
----
 
 ## 🎯 Use Cases
 
