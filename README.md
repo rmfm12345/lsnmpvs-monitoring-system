@@ -200,12 +200,6 @@ University of Minho · 2024/2025
 
 ---
 
-## 📄 License
-
-This project was developed for **academic purposes** at the University of Minho.
-Please contact the author before any commercial use.
-
----
 
 <p align="center">
   <sub>⭐ If you find this project useful, consider giving it a star! ⭐</sub>
